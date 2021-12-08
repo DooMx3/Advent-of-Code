@@ -59,7 +59,6 @@ def main():
 def main2():
     values = take_input()
     oxygen, co2 = life_support(values)
-    print(int(oxygen, 2), int(co2, 2))
     answer = int(oxygen, 2) * int(co2, 2)
     print(answer)
 
